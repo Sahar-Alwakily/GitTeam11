@@ -1,0 +1,20 @@
+﻿  Employee.cpp
+  Person.cpp
+  ProjectTeam11.cpp
+c:\users\maram alasad\source\repos\projectteam11\projectteam11\workingstudent.h(6): warning C4584: 'WorkingStudent': base-class 'Person' is already a base-class of 'Employee'
+  c:\users\maram alasad\source\repos\projectteam11\projectteam11\person.h(8): note: see declaration of 'Person'
+  c:\users\maram alasad\source\repos\projectteam11\projectteam11\employee.h(3): note: see declaration of 'Employee'
+c:\users\maram alasad\source\repos\projectteam11\projectteam11\workingstudent.h(7): warning C4584: 'WorkingStudent': base-class 'Person' is already a base-class of 'Student'
+  c:\users\maram alasad\source\repos\projectteam11\projectteam11\person.h(8): note: see declaration of 'Person'
+  c:\users\maram alasad\source\repos\projectteam11\projectteam11\student.h(7): note: see declaration of 'Student'
+c:\users\maram alasad\source\repos\projectteam11\projectteam11\projectteam11.cpp(14): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Student.cpp
+  WorkingStudent.cpp
+c:\users\maram alasad\source\repos\projectteam11\projectteam11\workingstudent.h(6): warning C4584: 'WorkingStudent': base-class 'Person' is already a base-class of 'Employee'
+  c:\users\maram alasad\source\repos\projectteam11\projectteam11\person.h(8): note: see declaration of 'Person'
+  c:\users\maram alasad\source\repos\projectteam11\projectteam11\employee.h(3): note: see declaration of 'Employee'
+c:\users\maram alasad\source\repos\projectteam11\projectteam11\workingstudent.h(7): warning C4584: 'WorkingStudent': base-class 'Person' is already a base-class of 'Student'
+  c:\users\maram alasad\source\repos\projectteam11\projectteam11\person.h(8): note: see declaration of 'Person'
+  c:\users\maram alasad\source\repos\projectteam11\projectteam11\student.h(7): note: see declaration of 'Student'
+  Generating Code...
+  ProjectTeam11.vcxproj -> C:\Users\Maram Alasad\source\repos\ProjectTeam11\Debug\ProjectTeam11.exe
