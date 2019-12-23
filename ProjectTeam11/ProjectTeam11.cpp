@@ -18,57 +18,50 @@ using namespace std;
 
 int main()
 {
-	int k;
-	int size;
+	int c;	int size;
 	string Name;
 	long id;
 	int age;
 	int average;
 	string institute;
 	float salary;
-	bool same_institute = true;
-	int choice;
-	cout << "Enter size" << endl;
+	bool sameinstitute = true;
+	cout << "How much u need ?" << endl;
 	cin >> size;
-	Person** arr = new Person*[size];
+	Person** persons = new Person*[size];
 
 	for (int i = 0; i < size; i++) {
 		cout << " what u need type Person" << endl << " 1- Person" << endl << "2- Student" << endl << "3 - Employee" << endl << "4- Working Student and Employee " << endl;
-		cin >> choice;
+		cin >> c;
 
 
-		if (choice == 1) {
+		if (c == 1) {
 			cout << " Add for Person id ,Name , age : " << endl;
 			cin >> id >> Name >> age;
-			arr[i] = new Person(id, Name, age);
+			persons[i] = new Person(id, Name, age);
 		}
-		else if (choice == 2) {
+		else if (c == 2) {
 			cout << "add for Student : id , Name , age, average, institute " << endl;
 			cin >> Name >> id >> age >> average >> institute;
-			arr[i] = new Student(id, Name, age, average, institute);
+			persons[i] = new Student(id, Name, age, average, institute);
 		}
-		else if (choice == 3) {
+		else if (c == 3) {
 			cout << "  Add for Employee :id , name , age, salary: " << endl;
 			cin >> Name >> id >> age >> salary;
-			arr[i] = new Employee(id, Name, age, salary);
+			persons[i] = new Employee(id, Name, age, salary);
 		}
-		else if (choice == 4) {
+		else if (c == 4) {
 
 			cout << "Add for Working Student and Employee   id ,name, age, salary,same_institute :" << endl;
 			cin >> Name >> id >> age >> salary;
-			arr[i] = new WorkingStudent(id, Name, age, average, institute, salary, same_institute);
-
-		}
-		else
-		{
-			cout << " Invalid choice , try again !" << endl;
+			persons[i] = new WorkingStudent(id, Name, age, average, institute, salary, same_institute);
 
 		}
 	}
 	for (int i = 0; i < size; i++) {
-		arr[i]->Print();
+		persons[i].Print();
 	}
-	cin >> k;
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
