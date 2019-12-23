@@ -14,17 +14,6 @@ public:
 	void setAverage(int av) {
 		average = av;
 	}
-	void setInstitute(string in) {
-		institute = in;
-	}
-
-	int getAverage() {
-		return average;
-	}
-	string getInstitute() {
-		return institute;
-	}
-
 	void Print()const
 	{
 		Person::Print();
