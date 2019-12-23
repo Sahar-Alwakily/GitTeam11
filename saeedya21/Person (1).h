@@ -15,24 +15,6 @@ class Person
 public:
 	Person(long id, string Name, int age) :id(id), name{ Name }, age(age){
 	};
-	void setName(string n) {
-		name = n;
-	}
-	void setId(long i) {
-		id = i;
-	}
-	void setAge(int a) {
-		age = a;
-	}
-	string getName() {
-		return name;
-	}
-	long getId() {
-		return id;
-	}
-	int getAge() {
-		return age;
-	}
 
 	void Print()const
 	{
